@@ -6,9 +6,10 @@
 
         public int Linha { get; set; }
 
-        public Posicao( int coluna, int linha) {
-            Coluna = coluna;
+        public Posicao( int linha, int coluna) {
             Linha = linha;
+            Coluna = coluna;
+            
         }
 
         public override string ToString()
