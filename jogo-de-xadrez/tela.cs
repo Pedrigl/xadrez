@@ -34,7 +34,7 @@ namespace jogo_de_xadrez
             {
                 if (peca.cor == Cor.Branca)
                 {
-                    Console.Write(peca);
+                    Console.Write(peca + " ");
                 }
                 else
                 {

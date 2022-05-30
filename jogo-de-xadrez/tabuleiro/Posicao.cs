@@ -6,7 +6,7 @@
 
         public int Linha { get; set; }
 
-        public Posicao( int linha, int coluna) {
+        public Posicao ( int linha, int coluna) {
             Linha = linha;
             Coluna = coluna;
             
